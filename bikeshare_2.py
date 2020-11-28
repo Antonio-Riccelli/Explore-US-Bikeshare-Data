@@ -12,7 +12,7 @@ def get_filters():
     """
     Asks user to specify a city, month, and day to analyze.
     Returns:
-        (str) city - name of the city to analyze
+        (str) city - name of the city to analyze (choosing between Chicago, Washington and New York City)
         (str) month - name of the month to filter by, or "all" to apply no month filter
         (str) day - name of the day of week to filter by, or "all" to apply no day filter
     """
@@ -24,7 +24,7 @@ def get_filters():
         if (city == 'washington') or (city == 'chicago') or (city == 'new york city'):
             flagName = True
         else:
-            print('That\' not a valid name though, is it? Take a deep breath, a sip of water, contemplate the vastness of the cosmos and let\'s try again.')
+            print('That\'s not a valid name though. Let\'s try again.')
 
     flagName = False
     while not flagName:
