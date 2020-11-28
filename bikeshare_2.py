@@ -24,7 +24,7 @@ def get_filters():
         if (city == 'washington') or (city == 'chicago') or (city == 'new york city'):
             flagName = True
         else:
-            print('That\' not a valid name though, is it? Take a deep breath, a sip of water, contemplate the vastness of the cosmos and let\'s try again.')
+            print('That\'s not a valid name though. Let\'s try again.')
 
     flagName = False
     while not flagName:
